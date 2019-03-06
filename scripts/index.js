@@ -1,4 +1,3 @@
-// add your solutions here
 
 // Positive Numbers
 
@@ -6,7 +5,7 @@
 // function onlyPositive(numbers) {
 //     return numbers >= 0;
 // }
-// console.log(nums.filter(onlyPositive))
+// console.log(nums.filter(onlyPositive));
 
 
 
@@ -42,6 +41,7 @@
 
 
 // Cities 1
+
 // const cities = [
 //     { name: 'Los Angeles', temperature: 60.0},
 //     { name: 'Atlanta', temperature: 52.0 },
@@ -63,6 +63,7 @@
 
 
 
+
 // Cities 2
 
 // function printCityNames(town) {
@@ -72,10 +73,6 @@
 //         console.log(towns)
 //     })
 // }
-
-
-
-
 
 
 
@@ -101,4 +98,19 @@ const people = [
     'Ben'
 ];
 
-console.log()
+// function goodJob(person) {
+//     return "Good job " + person + "!";
+// }
+// console.log(people.map(goodJob));
+
+
+people.forEach(function (what) {
+    console.log("Good job " + what + "!")
+});
+
+
+// const nums = [1, 2, 3, 4, 5];
+
+// nums.forEach(function (what, i, arr) {
+//     console.log(i + ': ' + what + " is part of " + arr);
+// });
